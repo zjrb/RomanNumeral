@@ -8,3 +8,5 @@ This solution was fairly easy all I had to do first was create an unordered map 
 # Converting from Decimal to Roman Numerals.
 
 This part I found to be a bit more tricky. There are a lot of cases where there will be an odd roman numeral pairring such as IX. For this I decided to break the problem up into smaller functions. Each would take the number that the function received as input and then it would see if it could subtract it by the number the roman numeral represented such as "input - 1000" and get a number greater than or equal to zero. In this case it would push to the string I have in the class called numeral and then it would subtract the input. It would keep looping through until it could no longer subtract that number. At the end it would return the string I had created for output. The order of the functions ensures that the output will not output an incorrect roman numeral
+
+I spent about 2 hours coding 1 hour documenting. The rest of my time I spent downloading Visual Studio Code on a windows machine and switching my code to a windows machine to create the .exe file I needed.
